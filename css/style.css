@@ -1,0 +1,60 @@
+html, body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Karla', sans-serif;
+  background: linear-gradient(to bottom, #ffecd2 0%, #fcb69f 100%);
+}
+
+.left, .right {
+  margin: 5px;
+  max-width: 90%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left {
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  border-radius: 50%;
+}
+
+.name {
+  font-family: 'Arvo', sans-serif;
+  margin-bottom: 2px;
+}
+
+.social-media {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 18px;
+}
+
+.social-media li {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.social-media a {
+  text-decoration: none;
+  padding: 4px;
+}
+
+.social-media a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.wrapper {
+  max-width: 90%;
+  display: flex;
+  flex-direction: row;
+  height: 80%;
+}
